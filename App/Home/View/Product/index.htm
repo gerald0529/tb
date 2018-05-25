@@ -1,0 +1,78 @@
+<layout name="Layout/layout" />
+<div class="main">
+                <div class="boxs">
+                    <div class="ml l">
+                        <div class="t1">產品展示 <small>/ product</small></div>
+                        <div class="pa">
+                            <ul class="subnav">
+                            <foreach name="infoclass" item="vo" >
+                             <li <if condition="$vo['index'] eq 'on'">class="on"</if>>
+                             <a href="__MODULE__/Product/index/cid/{$vo.cid}"  >{$vo.name}</a></li> 
+                            </foreach>
+                            </ul>
+                            <include file="Public:video" /> 
+                        </div>
+                    </div>
+
+<div class="mr r">
+                        <div class="t2"><h3>產品展示</h3></div>
+                        <div class="a_scroll">
+                            <ul class="pro_list c">
+                             <foreach name="arr" item="vo" >
+                                <li><a href="__MODULE__/Product/info/id/{$vo.id}">
+                                    <div class="abg"></div>
+                                    <div class="pic">
+                                    <img src="{$vo.image}" alt="暂无图片" onError="this.src='__MET__/images/wutu_dzz.jpg'"></div>
+                                    <div class="name">{$vo.title}</div>
+                                </a></li>
+                                </foreach>
+                                <!-- <li><a href="pro_list.html">
+                                    <div class="abg"></div>
+                                    <div class="pic"><img src="__MET__images/5_01.jpg" alt=""></div>
+                                    <div class="name">雕花角线</div>
+                                </a></li> -->
+                            </ul>
+                            <div class="page">
+                                
+                                {$Page}
+                                    <!-- <a class="" href="javascript:;" >首页</a>
+                                    <a class="last" href="javascript:;">上一页</a>
+                                    <a class="num current" href="javascript:;" >1</a><a class="num" href="javascript:;">2</a><a class="num" href="javascript:;">3</a> <a class="next" href="javascript:;">下一页</a>
+                                    <a class="" href="javascript:;">尾页</a> -->
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style type="text/css">
+            .main {background-image: url(__MET__images/left_bg2.png)}
+            .a_scroll {width: 750px\9; }
+            .mr {overflow: hidden;}
+    </style>
+    <script type="text/javascript">
+            $(function () {
+                var winH = $(window).height();
+                var aboxH = $(".bottom_x").height();
+                var bboxH = $(".footer").outerHeight();
+                var cboxH = $(".header").outerHeight();
+                var dboxH = $(".nav").outerHeight();
+                var eboxH = $(".t2").outerHeight();
+                // $(".bg").css("height",winH - aboxH - bboxH + 'px');
+                // $(".main").css("height",winH - aboxH - bboxH - cboxH - dboxH - 55 + 'px');
+                // $(".a_scroll").css("height",winH - aboxH - bboxH - cboxH - dboxH - eboxH - 85 + 'px');
+                $(".bg").css("height",'100%');
+                $(".main").css("height",'500px');
+                $(".a_scroll").css("height",'400px');
+            })
+    </script>
+   
+    <script>
+    $(document).ready(function(){
+        $(".page .current").attr("class", "num current"); //改成BBB
+        $(".page .number").attr("class", "num"); 
+    });
+    </script>

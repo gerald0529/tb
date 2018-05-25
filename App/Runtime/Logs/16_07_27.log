@@ -1,0 +1,335 @@
+[ 2016-07-27T16:05:58+08:00 ] ::1 /DT9/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `tp_index` [ RunTime:0.011056s ]
+ERR: 1146:Table '1408.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+
+[ 2016-07-27T16:06:01+08:00 ] ::1 /DT9/index.php/Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+ERR: 无法加载控制器:Login
+
+[ 2016-07-27T16:06:18+08:00 ] ::1 /DT9/index.php/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given E:\wamp\www\DT9\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-07-27T16:07:35+08:00 ] ::1 /DT9/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `tp_index` [ RunTime:0.011065s ]
+ERR: 1146:Table '1408.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-07-27T16:07:38+08:00 ] ::1 /DT9/index.php/Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+ERR: 无法加载控制器:Login
+
+[ 2016-07-27T16:07:53+08:00 ] ::1 /DT9/index.php/Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+ERR: 无法加载控制器:Login
+
+[ 2016-07-27T16:08:00+08:00 ] ::1 /DT9/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `tp_index` [ RunTime:0.068351s ]
+ERR: 1146:Table '1408.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002020s ]
+
+[ 2016-07-27T16:08:03+08:00 ] ::1 /DT9/index.php/Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+ERR: 无法加载控制器:Login
+
+[ 2016-07-27T16:10:22+08:00 ] ::1 /DT9/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+SQL: SHOW COLUMNS FROM `tp_index` [ RunTime:0.011626s ]
+ERR: 1146:Table '1408.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000397s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000748s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.028454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012729s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008647s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002654s ]
+
+[ 2016-07-27T16:14:28+08:00 ] ::1 /DT9/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+SQL: SHOW COLUMNS FROM `tp_index` [ RunTime:0.006518s ]
+ERR: 1146:Table '1408.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001770s ]
+
+[ 2016-07-27T16:14:31+08:00 ] ::1 /DT9/index.php/Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002828s ]
+ERR: 无法加载控制器:Login
+
+[ 2016-07-27T16:16:10+08:00 ] ::1 /DT9/index.php/Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+ERR: 无法加载控制器:Login
+
+[ 2016-07-27T16:16:11+08:00 ] ::1 /DT9/index.php/Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+ERR: 无法加载控制器:Login
+
+[ 2016-07-27T16:16:25+08:00 ] ::1 /DT9/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+SQL: SHOW COLUMNS FROM `tp_index` [ RunTime:0.012411s ]
+ERR: 1146:Table '1408.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001612s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012098s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009908s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002531s ]
+
+[ 2016-07-27T16:16:29+08:00 ] ::1 /DT9/index.php/Home/user/res
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.012570s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000541s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.028393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002871s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017096s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009796s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001828s ]
+
+[ 2016-07-27T16:16:30+08:00 ] ::1 /DT9/index.php/Home/User/verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001990s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.014018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002608s ]
+
+[ 2016-07-27T16:16:48+08:00 ] ::1 /DT9/index.php/Home/Product/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+NOTIC: [2048] Declaration of Home\Model\ProductModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) E:\wamp\www\DT9\App\Home\Model\ProductModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.011117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.000516s ]
+SQL: SELECT * FROM `tp_product` LIMIT 0,6   [ RunTime:0.000874s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.025060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008317s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006328s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001463s ]
+
+[ 2016-07-27T16:16:58+08:00 ] ::1 /DT9/index.php/Home/product/info/id3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+NOTIC: [2048] Declaration of Home\Model\ProductModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) E:\wamp\www\DT9\App\Home\Model\ProductModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.007319s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000533s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004943s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003480s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2016-07-27T16:17:35+08:00 ] ::1 /DT9/index.php/Home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+SQL: SHOW COLUMNS FROM `tp_index` [ RunTime:0.011551s ]
+ERR: 1146:Table '1408.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009845s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008156s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001835s ]
+
+[ 2016-07-27T16:22:55+08:00 ] ::1 /shopen/index.php/Home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+SQL: SHOW COLUMNS FROM `tp_index` [ RunTime:0.013276s ]
+ERR: 1146:Table '1408.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000660s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005959s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005382s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001653s ]
+

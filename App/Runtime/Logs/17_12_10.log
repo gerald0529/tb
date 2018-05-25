@@ -1,0 +1,29 @@
+[ 2017-12-10T00:39:29+08:00 ] ::1 /tb/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021174s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\tb\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_index` [ RunTime:0.068667s ]
+ERR: 1146:La table 'tb.tp_index' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000651s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\wamp\www\tb\App\Runtime\Cache\Home\89e841a2657642c31fa49c57b891047b.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\wamp\www\tb\App\Runtime\Cache\Home\89e841a2657642c31fa49c57b891047b.php 第 41 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.151315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.009445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003027s ]
+
+[ 2017-12-10T00:46:18+08:00 ] ::1 /tb/index.php/Admin/Category/edit/cid/1
+ERR: 非法操作:edit
+
+[ 2017-12-10T02:24:08+08:00 ] ::1 /tb/index.php/Admin/Admin/Index.html
+ERR: Think\Controller:page_01方法不存在！
+

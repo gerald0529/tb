@@ -1,0 +1,92 @@
+<?php if (!defined('THINK_PATH')) exit();?>  
+    <div class="content-box">
+      <!-- Start Content Box -->
+      <div class="content-box-header">
+        <!-- <h3>Content box</h3> -->
+        <h3><a href="<?php echo U('index');?>">返回上一页</a></h3> 
+        <ul class="content-box-tabs">
+          <li><a href="#tab1" >Table</a></li>
+          <!-- href must be unique and match the id of target div -->
+          <li><a href="#tab2" class="default-tab">Forms</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <!-- End .content-box-header -->
+      <div class="content-box-content">
+        
+          <!-- This is the target div. id must match the href of this div's tab -->
+         
+        <!-- End #tab1 -->
+        <div class="tab-content default-tab" id="tab2">
+          
+          <form action="<?php echo ($act); ?>" method="post" enctype="multipart/form-data">
+            <fieldset>
+            <!-- Set class to "column-left" or "column-right" on fieldsets to divide the form into columns -->
+            <input class="text-input small-input" type="hidden" id="small-input" name="id" value="<?php echo ($arr["id"]); ?>"/>
+            
+           <p>
+             <label>基本设置信息</label>
+             </p>
+            
+            <p>  
+              <font color=red>*</font>设置名称：
+              <input class="text-input small-input" type="text" id="small-input" name="title" value="<?php echo ($arr["title"]); ?>"/>
+            </p>
+            
+            <p>
+              设置变量：
+              <input class="text-input small-input" type="text" id="small-input" name="code" value="<?php echo ($arr["code"]); ?>"/>
+            </p>
+            <p>
+              排序：
+              <input class="text-input small-input" type="text" id="small-input" name="sort" value="<?php echo ($arr["sort"]); ?>"/>
+            </p>
+            <p>
+              设置类型：
+              <input  type="radio" id="small-input" name="config_type" value="2" 
+              <?php if($arr['config_type'] == 2) echo 'checked="checked"';?>/>
+              <span>单行文本</span>
+              <input  type="radio" id="small-input" name="config_type" value="1"
+              <?php if($arr['config_type'] == 1) echo 'checked="checked"';?>/>
+              <span>文件上传</span>
+              <input  type="radio" id="small-input" name="config_type" value="3"
+              <?php if($arr['config_type'] == 3) echo 'checked="checked"';?>/>
+              <span>多行文本</span>
+              <!-- <input  type="radio" id="small-input" name="config_type" value="4"/>
+              <span>多选按钮</span> -->
+              <input  type="radio" id="small-input" name="config_type" value="5"
+              <?php if($arr['config_type'] == 5) echo 'checked="checked"';?>/>
+              <span>单选按钮</span>
+            </p>
+            <p>
+              设置内容：
+              <input class="text-input small-input" type="text" id="kk" name="body" value=""/>
+            </p>
+            
+
+              <input class="button" type="submit" value="Submit" />
+            </p>
+            </fieldset>
+            <div class="clear"></div>
+            <!-- End .clear -->
+          </form>
+        </div>
+        <!-- End #tab2 -->
+      </div>
+      <!-- End .content-box-content -->
+    </div>
+    <!-- End .content-box -->
+    <script type="text/javascript">
+    $(":radio").click(function(){
+      var radio = $("input:checked").val();
+      if(radio == 1)      
+        $("#kk").replaceWith('<input class="text-input small-input" type="file" id="kk" name="body" value=""/>');
+      if(radio == 2)
+        $("#kk").replaceWith('<input class="text-input small-input" type="text" id="kk" name="body" value=""/>');
+      if(radio == 3)
+        $("#kk").replaceWith('<textarea id="kk" name="body"  rows="5"></textarea>');
+      if(radio == 5)
+        $("#kk").replaceWith('<input  type="radio" id="kk" name="body" value="1"/>是<input  type="radio" id="kk" name="body" value="2"/>不是');
+        
+  })
+    </script>

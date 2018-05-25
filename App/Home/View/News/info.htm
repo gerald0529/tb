@@ -1,0 +1,68 @@
+<layout name="Layout/layout" />
+            <div class="main">
+                <div class="boxs">
+                    <div class="ml l">
+                        <div class="t1">關於我們 <small>/ About us</small></div>
+                        <div class="pa">
+                            <ul class="subnav">
+                                <foreach name="infoclass" item="vo" >
+                                <!--<li class="on"><a href="">CDR下载</a></li>-->
+                                 <li <if condition="$vo['index'] eq 'on'">class="on"</if>
+                                 ><a href="__MODULE__/News/index/cid/{$vo.cid}">{$vo.name}</a></li> 
+                                </foreach>
+                            </ul>
+                            <include file="Public:video" /> 
+                        </div>
+                    </div>
+                    <div class="mr r">
+                        <div class="t2"><h3>公司文化</h3></div>
+                        <div class="a_scroll">
+                            <div class="title">
+                            <label >{$arr.title}</label> 
+                            <ul>
+                                <li>发布人：{$arr.resource}</li>
+                                <li>发布时间：{$arr.add_time}</li>
+                            </ul>
+                            </div>
+                            <div class="apic">
+                                <img src="__ROOT__{$arr.image}" alt="">
+                            </div>
+                            <div class="cont">
+                               {$arr.body}  
+                            </div>
+                            <div class="title">
+                            <ul>
+                                <li><font color="red">上一页</font>：<a href="__URL__/info/id/{$front.id}">{$front.title}</a></li>
+                                <li><font color="red">下一页</font>：<a href="__URL__/info/id/{$after.id}">{$after.title}</a></li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript">
+            $(function () {
+                var winH = $(window).height();
+                var aboxH = $(".bottom_x").height();
+                var bboxH = $(".footer").outerHeight();
+                var cboxH = $(".header").outerHeight();
+                var dboxH = $(".nav").outerHeight();
+                var eboxH = $(".t2").outerHeight();
+                // $(".bg").css("height",winH - aboxH - bboxH + 'px');
+                // $(".main").css("height",winH - aboxH - bboxH - cboxH - dboxH - 55 + 'px');
+                // $(".a_scroll").css("height",winH - aboxH - bboxH - cboxH - dboxH - eboxH - 85 + 'px');
+                //$(".bg").css("height",'250%');
+                //$(".main").css("height",'1500px');
+                //$(".a_scroll").css("height",'600px');
+                $(".bg").css("height",'150%');
+                $(".main").css("height",'800px');
+                $(".a_scroll").css("height",'700px');
+            })
+    </script>
+   <style>
+       .title{width: 100%;height:70px;}
+       .title label{font-size:18px; color:black;text-align: center; line-heightht: 40px;display:block;}
+       .title ul li{float:left;width: 50%;text-align: center;}
+   </style>

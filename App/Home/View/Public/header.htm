@@ -1,0 +1,52 @@
+<body >
+    <div class="bg" 
+    <if condition="CONTROLLER_NAME eq 'Index'"> 
+    style="background-image:url(__MET__images/home_bg.jpg)"
+    </if>>
+        <div class="wp">
+            <div class="header c">
+                <div class="logo l"><a href=""><img src="__ROOT__{$cfg.cfg_logo}" alt=""></a></div>
+                <div class="head_txt l text-right">
+                    {$cfg.cfg_top}
+                </div>
+                <div class="head_bar r">
+                    <div class="a">
+                        <span><a href="">English</a><i>|</i>
+                        <a href="__MODULE__/Index/Index">返回首頁</a></span>
+                        <if condition="$_SESSION['user']['username'] neq null"> 
+                        <span>欢迎你，
+                        <a href=""><font color="orange">[{$_SESSION.user.username}]</a></font>
+                        <a href="{:U('User/logout')}"><font color="orange">[退出]</font></a></span> 
+                        <else />
+                        <span><a href="__MODULE__/User/login">登錄</a><i>|</i>
+                        <a href="__MODULE__/User/reg">註冊</a></span> 
+                        </if>
+                    </div>
+                    <div class="so">
+                        <form action="{:U('Product/index')}" method="post">
+                        <input type="text" name="search" id="" class="inp" placeholder="请输入名称、关键词、单价..">
+                        <input type="submit" value="搜索" class="mit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <if condition="CONTROLLER_NAME neq Index"> 
+            <div class="nav">
+                <ul>
+                    <li><a href="__MODULE__/Index/Index">瑪致官网首页</a></li>
+
+                    <foreach name="menu" item="vo">
+                       <li <if condition="CONTROLLER_NAME eq $vo['remark']"> class="on"</if>>
+                       <a href="__MODULE__/{$vo.remark}/Index">{$vo.name}</a>
+                        <ul id="pop">
+                        <foreach name="vo['children']" item="v">
+                            <li>
+                            <a href="__MODULE__/{$vo.remark}/Index/cid/{$v.cid}">{$v.name}</a>
+                            </li>
+                        </foreach> 
+                        </ul> 
+                   </foreach> 
+                    
+                </ul>
+            </div>
+            </if>

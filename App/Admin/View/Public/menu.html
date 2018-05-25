@@ -1,0 +1,65 @@
+
+      <ul id="main-nav">  
+        <foreach name="list" item="vo"  >
+        <li> <a href="javascript:;"  
+        <if condition="$vo['index'] eq 'on'">
+        class="nav-top-item current"
+        <else />
+        class="nav-top-item no-submenu" 
+        </if> >
+        {$vo.title} </a> 
+          <ul>
+              <foreach name="vo['children']" item="v"  key="k">       
+              <?php if(strstr($v['name'],'Article') == true) :?>            
+              <foreach name="inf" item="vv"  >
+                  <li index="__CONTROLLER__"><a <if condition="$vv['cid'] eq $_SESSION['cid']"> class="current"</if>
+                   href="__MODULE__/Article/index/cid/{$vv.cid}">{$vv.name}</a></li>
+              </foreach>     
+              <?php else:?>      
+                  <li><a  <if condition="$v['index'] eq 'on'"> class="current"</if>        
+                  href="__ROOT__index.php/{$v.name}">{$v.title}</a></li>
+              <?php endif;?> 
+              </foreach>       
+          </ul>
+        </li>  
+        </foreach>
+        <!--  <li> <a href="javascript:;" class="nav-top-item current"> 栏目列表</a> 
+          <ul>
+            <foreach name="inf" item="vo" key="k" >
+             <li><a <if condition="$vo['cid'] eq $_SESSION['cid']"> class="current"</if>
+              href="__MODULE__/Article/index/cid/{$vo.cid}/is_show/1">{$vo.name}</a></li>
+            </foreach>
+          </ul>
+        </li> 
+        <li> <a href="javascript:;" class="nav-top-item no-submenu">管理员中心 </a> 
+          <ul>
+            <li><a  href="{:U('User/Index')}">管理员列表</a></li>
+            <li><a  href="{:U('Rule/Index')}">权限等级管理</a></li>
+            <li><a  href="{:U('Auth/Index')}">权限管理</a></li>        
+          </ul>
+        </li>      
+        <li> <a href="javascript:;" class="nav-top-item no-submenu">会员管理 </a> 
+          <ul>
+            <li><a  href="{:U('Member/Index')}">会员列表</a></li>
+            <li><a  href="{:U('Level/Index')}">会员等级</a></li>
+            <li><a  href="{:U('Comment/Index')}">会员评论列表</a></li>
+          </ul>
+        </li>
+        <li> <a href="javascript:;" class="nav-top-item no-submenu">广告管理 </a> 
+          <ul>
+            <li><a  href="{:U('Ad/Index')}">广告列表</a></li>
+            <li><a  href="{:U('Position/Index')}">广告位置</a></li>
+          </ul>
+        </li>
+        <li> <a href="javascript:;" class="nav-top-item no-submenu">其他管理 </a> 
+          <ul>
+            <li><a  href="{:U('Category/Index')}">栏目管理</a></li>
+            <li><a  href="{:U('Debris/Index')}">碎片管理</a></li>
+            <li><a  href="{:U('Feedback/Index')}">留言管理</a></li>
+            <li><a  href="{:U('Uploads/Index')}">附件列表</a></li>
+            <li><a  href="{:U('Log/Index')}">操作日志记录</a></li>
+          </ul>
+        </li> -->
+      </ul>
+      <!-- End #main-nav -->
+      

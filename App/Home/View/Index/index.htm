@@ -1,0 +1,111 @@
+<layout name="Layout/layout" />
+
+
+            <div class="main">
+                <div class="home_nav">
+                    <ul class="c">
+                        <li>
+                            <a href="__MODULE__/About/Index">
+                                <div class="pic"><img src="__MET__images/20.jpg" alt=""></div>
+                                <div class="abg"></div>
+                                    <div class="name">
+                                        <div class="rel">
+                                        <div class="cn">關於我們</div>
+                                        <div class="en">About MAZHI</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="__MODULE__/Video/Index">
+                                <div class="pic"><img src="__MET__images/21.jpg" alt=""></div>
+                                <div class="abg"></div>
+                                    <div class="name">
+                                        <div class="rel">
+                                        <div class="cn">视频專區</div>
+                                        <div class="en">Member area</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="__MODULE__/News/Index">
+                                <div class="pic"><img src="__MET__images/22.jpg" alt=""></div>
+                                <div class="abg"></div>
+                                    <div class="name">
+                                        <div class="rel">
+                                        <div class="cn">热点新闻</div>
+                                        <div class="en">Case shows</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="__MODULE__/Product/Index">
+                                <div class="pic"><img src="__MET__images/23.jpg" alt=""></div>
+                                <div class="abg"></div>
+                                    <div class="name">
+                                        <div class="rel">
+                                        <div class="cn">產品展示</div>
+                                        <div class="en">Produc introduce</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="__MODULE__/Join/Index">
+                                <div class="pic"><img src="__MET__images/24.jpg" alt=""></div>
+                                <div class="abg"></div>
+                                    <div class="name">
+                                        <div class="rel">
+                                        <div class="cn">招商加盟</div>
+                                        <div class="en">Merchants</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="__MODULE__/Contact/Index">
+                                <div class="pic"><img src="__MET__images/25.jpg" alt=""></div>
+                                <div class="abg"></div>
+                                    <div class="name">
+                                        <div class="rel">
+                                        <div class="cn">联系我们</div>
+                                        <div class="en">Contact us</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <style type="text/css">
+            .main {background: none;margin: 0}
+    </style>
+    <script type="text/javascript">
+            $(function  () {
+                $(".home_nav ul li a").hover(function() {
+                    $(this).find(".abg").stop(true,true).slideUp();
+                }, function() {
+                    $(this).find(".abg").stop(true,true).slideDown();                    
+                });
+            })
+    </script>
+
+    <script type="text/javascript">
+            $(function () {
+                var winH = $(window).height();
+                var aboxH = $(".bottom_x").height();
+                var bboxH = $(".footer").outerHeight();
+                var cboxH = $(".header").outerHeight();
+                //var dboxH = $(".bottom_t").outerHeight();
+                $(".bg").css("height",winH - aboxH - bboxH + 'px');
+                $(".main").css("height",winH - aboxH - bboxH - cboxH + 'px');
+                $(".home_nav ul li a").css("height",winH - aboxH - bboxH - cboxH - 40 + 'px');
+            })
+    </script>
+

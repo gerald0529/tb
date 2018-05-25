@@ -1,0 +1,1009 @@
+[ 2014-08-12T09:28:43+08:00 ] 127.0.0.1 /0730/tpshop/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002555s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\wamp\www\0730\tpshop\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001767s ]
+
+[ 2014-08-12T09:29:07+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.005453s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT * FROM `tp_product` LIMIT 0,5   [ RunTime:0.000717s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.088689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000743s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.028284s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026616s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.027342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.042217s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011882s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.029226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.040534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2014-08-12T09:29:20+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Admin/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.024775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2014-08-12T09:29:21+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2014-08-12T09:29:35+08:00 ] 127.0.0.1 /0730/tpshop/index.php/admin/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003695s ]
+SQL: SELECT * FROM `tp_admin` WHERE ( `username` = 'sky' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2014-08-12T09:29:36+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.004157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.000287s ]
+SQL: SELECT * FROM `tp_product` LIMIT 0,5   [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010578s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008239s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008961s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020829s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007385s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.011782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2014-08-12T09:45:35+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.003190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `tp_product` LIMIT 0,5   [ RunTime:0.000366s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007826s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007863s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008618s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015082s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004491s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2014-08-12T09:45:37+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Admin/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2014-08-12T09:45:38+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002315s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2014-08-12T09:45:43+08:00 ] 127.0.0.1 /0730/tpshop/index.php/admin/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003528s ]
+SQL: SELECT * FROM `tp_admin` WHERE ( `username` = 'sky' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000278s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2014-08-12T09:45:44+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.003366s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT * FROM `tp_product` LIMIT 0,5   [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008801s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020015s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020699s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.029231s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008868s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.021986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.030663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2014-08-12T09:45:55+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.003418s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.037276s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015722s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.021635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.037142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.042146s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003493s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.038399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.041622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2014-08-12T10:09:56+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.003174s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000725s ]
+
+[ 2014-08-12T10:09:59+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2014-08-12T10:15:24+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2014-08-12T10:59:10+08:00 ] 127.0.0.1 /0730/tpshop/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2014-08-12T19:21:34+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.003223s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `tp_product` LIMIT 0,5   [ RunTime:0.000425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008169s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007792s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008481s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013752s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003635s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.009981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2014-08-12T19:47:18+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index/p/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.003219s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT * FROM `tp_product` LIMIT 5,5   [ RunTime:0.000339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008787s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007873s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014406s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004141s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.009988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2014-08-12T19:47:21+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index/p/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.003244s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `tp_product` LIMIT 10,5   [ RunTime:0.000328s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010692s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008520s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000622s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016286s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004416s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.011142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2014-08-12T19:50:54+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.003208s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006024s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004416s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011241s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005370s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2014-08-12T19:54:35+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.037060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.000294s ]
+SQL: SELECT * FROM `tp_product` LIMIT 0,5   [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008601s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008100s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008775s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014267s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004105s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2014-08-12T20:39:40+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.018680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005267s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004094s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004764s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009561s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003225s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2014-08-12T20:40:43+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.055786s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\0730\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.003187s ]
+SQL: INSERT INTO `tp_product` (`name`,`count`,`Market_price`,`shop_price`,`brand_id`,`category_id`,`image`,`add_time`) VALUES ('苹果5',100,5000,4666,0,6,'Uploads/images/20140812/thumb_1407847243.jpg',20140812) [ RunTime:0.000392s ]
+
+[ 2014-08-12T20:40:43+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003028s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.004985s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.000247s ]
+SQL: SELECT * FROM `tp_product` LIMIT 0,5   [ RunTime:0.000339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009419s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008801s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009610s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016673s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004931s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.011694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2014-08-12T20:40:46+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index/p/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.003203s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT * FROM `tp_product` LIMIT 10,5   [ RunTime:0.000332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009010s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007991s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008767s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015225s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004509s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2014-08-12T20:40:49+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002953s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.004686s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006439s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004633s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011586s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004053s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2014-08-12T20:42:13+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.004881s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\0730\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.003192s ]
+SQL: INSERT INTO `tp_product` (`name`,`count`,`Market_price`,`shop_price`,`brand_id`,`category_id`,`image`,`add_time`) VALUES ('杯素5',3,7999,7000,5,0,'Uploads/images/20140812/thumb_1407847333.jpg',20140812) [ RunTime:0.000415s ]
+
+[ 2014-08-12T20:42:14+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.003943s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.000217s ]
+SQL: SELECT * FROM `tp_product` LIMIT 0,5   [ RunTime:0.000711s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008501s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008328s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014769s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003869s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2014-08-12T20:42:19+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.003253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006418s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005028s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011439s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003772s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2014-08-12T20:43:28+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001693s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.031343s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\0730\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.004420s ]
+SQL: INSERT INTO `tp_product` (`name`,`count`,`Market_price`,`shop_price`,`brand_id`,`category_id`,`image`,`add_time`) VALUES ('斯蒂芬3',30,6999,6000,1,4,'Uploads/images/20140812/thumb_1407847408.jpg',20140812) [ RunTime:0.000654s ]
+
+[ 2014-08-12T20:43:28+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.003238s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `tp_product` LIMIT 0,5   [ RunTime:0.000340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011127s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008407s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017203s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004095s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.011052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2014-08-12T20:43:36+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index/p/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.004729s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.000251s ]
+SQL: SELECT * FROM `tp_product` LIMIT 10,5   [ RunTime:0.000351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008489s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007729s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013990s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004156s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.009909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2014-08-12T20:43:44+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.005626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000723s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005910s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004336s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010642s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003778s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2014-08-12T20:44:36+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.005964s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\0730\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.003564s ]
+SQL: INSERT INTO `tp_product` (`name`,`count`,`Market_price`,`shop_price`,`brand_id`,`category_id`,`image`,`add_time`) VALUES ('热土9',5,3333,2999,0,4,'Uploads/images/20140812/thumb_1407847476.jpg',20140812) [ RunTime:0.000361s ]
+
+[ 2014-08-12T20:44:36+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.003360s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT * FROM `tp_product` LIMIT 0,5   [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000933s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010942s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009489s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016941s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004279s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.011891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2014-08-12T20:44:39+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index/p/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.004844s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT * FROM `tp_product` LIMIT 10,5   [ RunTime:0.000347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000910s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008299s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007550s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013662s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004099s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.009899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001195s ]
+

@@ -1,0 +1,53 @@
+<layout name="Layout/layout" />
+
+            <div class="main">
+                <div class="boxs">
+                    <div class="ml l">
+                        <div class="t1">關於我們 <small>/ About us</small></div>
+                        <div class="pa">
+                            <ul class="subnav">
+                                 <foreach name="infoclass" item="vo" >
+                                 <li <if condition="$vo['index'] eq 'on'">class="on"</if>><a href="__MODULE__/About/index/cid/{$vo.cid}">{$vo.name}</a></li> 
+                            </foreach>
+                            </ul>
+                            <!-- <div class="ads">
+                                <div class="t">广告大片</div>
+                                <div class="rel">
+                                    <a href="javascript:pop();"><img src="__MET__images/1.jpg" alt=""><span></span></a>
+                                </div>
+                            </div> -->
+                            <include file="Public:video" /> 
+                        </div>
+                    </div>
+                    <div class="mr r">
+                        <div class="t2"><h3>{$arr.name}</h3></div>
+                        <div class="a_scroll">
+                            <div class="apic">
+                                <img src="{$arr.image}" alt="暂无图片">
+                            </div>
+                            <div class="cont">
+                                {$arr.body}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <script type="text/javascript">
+            $(function () {
+                var winH = $(window).height();
+                var aboxH = $(".bottom_x").height();
+                var bboxH = $(".footer").outerHeight();
+                var cboxH = $(".header").outerHeight();
+                var dboxH = $(".nav").outerHeight();
+                var eboxH = $(".t2").outerHeight();
+                //$(".bg").css("height",winH - aboxH - bboxH + 'px');
+                //$(".main").css("height",winH - aboxH - bboxH - cboxH - dboxH - 55 + '100px');
+                //$(".a_scroll").css("height",winH - aboxH - bboxH - cboxH - dboxH - eboxH - 85 + 'px');
+                $(".bg").css("height",'100%');
+                $(".main").css("height",'500px');
+                $(".a_scroll").css("height",'400px');
+            })
+    </script>
+    

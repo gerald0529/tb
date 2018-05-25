@@ -1,0 +1,35 @@
+[ 2018-02-27T13:21:17+08:00 ] ::1 /tb/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002755s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\tb\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_index` [ RunTime:0.081247s ]
+ERR: 1146:La table 'tb.tp_index' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.047284s ]
+SQL: SELECT * FROM `tp_category` WHERE ( pid=0 ) LIMIT 100   [ RunTime:0.009084s ]
+SQL: SELECT * FROM `tp_category` WHERE ( pid=1 ) LIMIT 100   [ RunTime:0.000295s ]
+SQL: SELECT * FROM `tp_category` WHERE ( pid=2 ) LIMIT 100   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `tp_category` WHERE ( pid=3 ) LIMIT 100   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `tp_category` WHERE ( pid=4 ) LIMIT 100   [ RunTime:0.000214s ]
+SQL: SELECT * FROM `tp_category` WHERE ( pid=5 ) LIMIT 100   [ RunTime:0.000219s ]
+SQL: SELECT * FROM `tp_category` WHERE ( pid=6 ) LIMIT 100   [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `tp_config` [ RunTime:0.043041s ]
+SQL: SELECT `code`,`title`,`body` FROM `tp_config`  [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.030172s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `position_psid` = 4 )  [ RunTime:0.000856s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Undefined index: user D:\wamp\www\tb\App\Runtime\Cache\Home\89e841a2657642c31fa49c57b891047b.php 第 29 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\wamp\www\tb\App\Runtime\Cache\Home\89e841a2657642c31fa49c57b891047b.php 第 44 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.128677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.009739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002468s ]
+

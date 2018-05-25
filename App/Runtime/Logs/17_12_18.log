@@ -1,0 +1,6 @@
+[ 2017-12-18T02:14:03+08:00 ] ::1 /tb//index.php/Admin/Rule/index
+ERR: 无法加载控制器:Rule
+
+[ 2017-12-18T02:27:45+08:00 ] ::1 /tb/index.php/Admin/Rule/index
+ERR: 无法加载控制器:Rule
+

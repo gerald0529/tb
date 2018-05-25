@@ -1,0 +1,44 @@
+[ 2018-01-16T23:59:42+08:00 ] ::1 /tb/index.php/Admin/Article/del?id=11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\tb\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.006218s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\PublicController::auth(), called in D:\wamp\www\tb\App\Admin\Controller\PublicController.class.php on line 44 and defined D:\wamp\www\tb\App\Admin\Controller\PublicController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `tp_auth_group_access` [ RunTime:0.003631s ]
+SQL: SELECT `rules` FROM tp_auth_group_access a INNER JOIN tp_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003864s ]
+SQL: SELECT `condition`,`name` FROM `tp_auth_rule` WHERE ( `id` IN ('1','48','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','25','26','27','28','65','5','6','7','8','14','15','16','20','21','22','23','24','66','29','30','31','32','33','34','35','36','37','38','67','39','40','41','42','43','45','46','47','2','3','4','68','69','70','72','13') ) AND ( `type` = 1 ) AND ( `status` = 1 )  [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.004015s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( `pid` = 1 ) AND ( `is_show` = 1 ) ORDER BY `sort` LIMIT 100   [ RunTime:0.000399s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( `pid` = 71 ) AND ( `is_show` = 1 ) LIMIT 100   [ RunTime:0.000288s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( `pid` = 64 ) AND ( `is_show` = 1 ) LIMIT 100   [ RunTime:0.000279s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( `pid` = 65 ) AND ( `is_show` = 1 ) LIMIT 100   [ RunTime:0.000281s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( `pid` = 66 ) AND ( `is_show` = 1 ) LIMIT 100   [ RunTime:0.000325s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( `pid` = 67 ) AND ( `is_show` = 1 ) LIMIT 100   [ RunTime:0.000497s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( `pid` = 48 ) AND ( `is_show` = 1 ) LIMIT 100   [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.003920s ]
+SQL: SELECT * FROM `tp_category` WHERE ( `pid` = 0 )  [ RunTime:0.000316s ]
+
+[ 2018-01-16T23:59:54+08:00 ] ::1 /tb/index.php/Admin/Article/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\tb\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.004338s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\PublicController::auth(), called in D:\wamp\www\tb\App\Admin\Controller\PublicController.class.php on line 44 and defined D:\wamp\www\tb\App\Admin\Controller\PublicController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `tp_auth_group_access` [ RunTime:0.003238s ]
+SQL: SELECT `rules` FROM tp_auth_group_access a INNER JOIN tp_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.007353s ]
+SQL: SELECT `condition`,`name` FROM `tp_auth_rule` WHERE ( `id` IN ('1','48','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','25','26','27','28','65','5','6','7','8','14','15','16','20','21','22','23','24','66','29','30','31','32','33','34','35','36','37','38','67','39','40','41','42','43','45','46','47','2','3','4','68','69','70','72','13') ) AND ( `type` = 1 ) AND ( `status` = 1 )  [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `tp_auth_rule` [ RunTime:0.003840s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( `pid` = 1 ) AND ( `is_show` = 1 ) ORDER BY `sort` LIMIT 100   [ RunTime:0.000422s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( `pid` = 71 ) AND ( `is_show` = 1 ) LIMIT 100   [ RunTime:0.000323s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( `pid` = 64 ) AND ( `is_show` = 1 ) LIMIT 100   [ RunTime:0.000937s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( `pid` = 65 ) AND ( `is_show` = 1 ) LIMIT 100   [ RunTime:0.001241s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( `pid` = 66 ) AND ( `is_show` = 1 ) LIMIT 100   [ RunTime:0.000814s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( `pid` = 67 ) AND ( `is_show` = 1 ) LIMIT 100   [ RunTime:0.000366s ]
+SQL: SELECT * FROM `tp_auth_rule` WHERE ( `pid` = 48 ) AND ( `is_show` = 1 ) LIMIT 100   [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.003702s ]
+SQL: SELECT * FROM `tp_category` WHERE ( `pid` = 0 )  [ RunTime:0.000271s ]
+

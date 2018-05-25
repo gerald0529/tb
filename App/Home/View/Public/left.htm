@@ -1,0 +1,11 @@
+    <div class="ml l">
+        <div class="t1">联系方式 <small>/ contact us</small></div>
+        <div class="pa">
+            <ul class="subnav">
+                <foreach name="infoclass" item="vo" >
+	                 <li <if condition="$vo['index'] eq 'on'">class="on"</if>><a href="__MODULE__/About/index/cid/{$vo.cid}">{$vo.name}</a></li> 
+	            </foreach>
+            </ul>
+            <include file="Public:video" /> 
+        </div>
+    </div>

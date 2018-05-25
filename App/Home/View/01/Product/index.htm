@@ -1,0 +1,22 @@
+<div class="center_content">
+    <div class="left_content">
+      <div class="crumb_nav"> <a href="index.htm">home</a> &gt;&gt; category name </div>
+      <div class="title"><span class="title_icon"><img src="images/bullet1.gif" alt="" title="" /></span>商品展示</div>
+      <div class="new_products">
+     <foreach name="arr" item="vo" key="k" >
+        <div class="new_prod_box"> 
+        <a href="details.htm">{$vo.name}</a>
+          <div class="new_prod_bg"> 
+          <a href="{$vo.info_url}">
+          <img src="__ROOT__{$vo.image}" width=120 alt="图片加载失败" title="" class="thumb" border="0" />
+          </a> 
+          </div>
+        </div>
+        </foreach>
+        <div class="pagination">
+        {$Page}
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <!--end of left content-->

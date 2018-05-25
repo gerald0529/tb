@@ -1,0 +1,51 @@
+<layout name="Layout/layout" />
+
+            <div class="main">
+                <div class="boxs">
+                    <div class="ml l">
+                        <div class="t1">联系方式 <small>/ contact us</small></div>
+                        <div class="pa">
+                            <ul class="subnav">
+                                <li ><a href="__MODULE__/Contact/index">联系我们</a></li>
+                                <li class="on"><a href="__MODULE__/Contact/feedback">在线留言</a></li>
+                            </ul>
+                            <include file="Public:video" /> 
+                        </div>
+                    </div>
+                    <div class="mr r">
+                        <div class="t2"><h3>在线留言</h3></div>
+                        <div class="a_scroll">
+                            <dl class="feedback rel">
+                            <form action="__MODULE__/Contact/feedback" method="post">
+                                <dt>姓名</dt><dd><input type="text" name="" id="" class="inp"></dd>
+                                <dt>聯系電話</dt><dd><input type="text" name="" id="" class="inp"></dd>
+                                <dt>留言內容</dt><dd>
+                                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                                </dd>
+                                <dt>驗證碼</dt><dd>
+                                    <input type="text" name="" id="" class="inp">
+                                    <img src="images/code.jpg" alt="">
+                                </dd>
+                                <dd><input type="submit" value="提交留言" class="mit"><input type="reset" value="重置" class="reset"></dd>
+                              </form>  
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript">
+            $(function () {
+                var winH = $(window).height();
+                var aboxH = $(".bottom_x").height();
+                var bboxH = $(".footer").outerHeight();
+                var cboxH = $(".header").outerHeight();
+                var dboxH = $(".nav").outerHeight();
+                var eboxH = $(".t2").outerHeight();
+                $(".bg").css("height",winH - aboxH - bboxH + 'px');
+                $(".main").css("height",winH - aboxH - bboxH - cboxH - dboxH - 55 + 'px');
+                $(".a_scroll").css("height",winH - aboxH - bboxH - cboxH - dboxH - eboxH - 85 + 'px');
+            })
+    </script>
+    

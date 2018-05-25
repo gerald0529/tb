@@ -1,0 +1,90 @@
+<layout name="Layout/layout" />
+
+            <div class="main">
+                <div class="login_box">
+                    <div class="tit">
+                        <h3>會員專區</h3>
+                        <p>歡迎加入瑪緻網站會員，請填妥以下會員申請表單並送出資料。（*號表示必填欄位）</p>
+                    </div>
+                    <div class="reg_line text-center">
+                        <img src="images/stop_line1.png" alt="">
+                    </div>
+                    <div class="reg_line2">
+                        <form action="{:U('User/reg')}" method="post">
+                        <ul class="nn">
+                            <li><div class="name">賬號設定</div><div class="inp">
+                            <input type="text" name="username" id="" class="inp"></div>
+                            <div class="tips">賬號請使用英文或者數字組成</div></li>
+                            <li><div class="name">密碼設定</div><div class="inp">
+                            <input type="password" name="password" id="" class="inp"></div><div class="tips">*</div></li>
+                            <li><div class="name">密碼確認</div><div class="inp">
+                            <input type="password" name="password2" id="" class="inp"></div><div class="tips">*</div></li>
+                        </ul>
+                        <ul style="display:none" class="mm">
+                            <li><div class="name">真实姓名</div><div class="inp">
+                            <input type="text" name="realname" id="" class="inp"></div>
+                            <div class="tips">賬號請使用英文或者數字組成</div></li>
+                            <li><div class="name">手机号码</div><div class="inp">
+                            <input type="text" name="phone" id="" class="inp"></div>
+                            <div class="tips">*</div></li>
+                            <li><div class="name">电子邮箱</div><div class="inp">
+                            <input type="text" name="email" id="" class="inp"></div>
+                            <div class="tips">*</div></li>
+                            <li><div class="name">地　　址</div><div class="inp">
+                            <input type="text" name="address" id="" class="inp"></div>
+                            <div class="tips">*</div></li>
+                        </ul>
+                        <div class="go text-center">
+                            <a href="javascript:;" class="preva" sid="__MET__images/stop_line1.png"><span>< 上一步</span></a>
+                            <a href="javascript:;" class="nexta" sid="__MET__images/stop_line2.png"><span>下一步 ></span></a>
+                            <input type="submit" value="提交" class="mit">
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style type="text/css">
+            .main {background: none;margin: 0}
+            .login_box .tit {padding-top: 100px;}
+    </style>
+
+    <script type="text/javascript">
+            $(function () {
+                $(".reg_line2 .go a.nexta").click(function() {
+                    $(this).hide();
+                    $(this).siblings().show();
+                    var a = $(this).attr("sid");
+                    $(".reg_line img").attr("src",a);
+                    $(".nn").css("display",'none');
+                    $(".mm").css("display",'');
+                });
+                $(".reg_line2 .go a.preva").click(function() {
+                    $(this).hide();
+                    $(this).siblings(".mit").hide();
+                    $(this).siblings(".nexta").show();
+                    var a = $(this).attr("sid");
+                    $(".reg_line img").attr("src",a);
+                    $(".mm").css("display",'none');
+                    $(".nn").css("display",'');
+                });
+            })
+    </script>
+
+    <script type="text/javascript">
+            $(function () {
+                var winH = $(window).height();
+                var aboxH = $(".bottom_x").height();
+                var bboxH = $(".footer").outerHeight();
+                var cboxH = $(".header").outerHeight();
+                var dboxH = $(".nav").outerHeight();
+                var eboxH = $(".t2").outerHeight();
+                //$(".bg").css("height",winH - aboxH - bboxH + 'px');
+                //$(".main").css("height",winH - aboxH - bboxH - cboxH - dboxH - 15 + 'px');
+                $(".bg").css("height",'120%');
+                $(".main").css("height",'600px');
+            })
+    </script>
+    

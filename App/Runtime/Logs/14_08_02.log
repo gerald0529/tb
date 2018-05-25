@@ -1,0 +1,1047 @@
+[ 2014-08-02T13:55:55+08:00 ] 127.0.0.1 /0730/tpshop/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026377s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\wamp\www\0730\tpshop\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001593s ]
+
+[ 2014-08-02T13:56:39+08:00 ] 127.0.0.1 /0730/tpshop/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.081472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2014-08-02T14:11:58+08:00 ] 127.0.0.1 /0730/tpshop/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.086387s ]
+SQL: SELECT * FROM `tp_admin` WHERE ( `username` = 'sky' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.049334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2014-08-02T14:11:59+08:00 ] 127.0.0.1 /0730/tpshop/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2014-08-02T14:12:25+08:00 ] 127.0.0.1 /0730/tpshop/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003333s ]
+SQL: SELECT * FROM `tp_admin` WHERE ( `username` = 'sky' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2014-08-02T14:12:26+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+
+[ 2014-08-02T14:27:26+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+ERR: 模板不存在:./App/Admin/View/Product/index.html
+
+[ 2014-08-02T14:27:29+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+ERR: 模板不存在:./App/Admin/View/Product/index.html
+
+[ 2014-08-02T14:27:36+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+ERR: 非法操作:login
+
+[ 2014-08-02T14:27:53+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2014-08-02T14:29:02+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2014-08-02T14:29:07+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2014-08-02T14:30:43+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2014-08-02T14:38:30+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003310s ]
+SQL: SELECT * FROM `tp_admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000261s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2014-08-02T14:38:31+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+ERR: 模板不存在:./App/Admin/View/Product/index.html
+
+[ 2014-08-02T14:40:14+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2014-08-02T14:40:46+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+
+[ 2014-08-02T14:47:09+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2014-08-02T14:59:39+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+ERR: 模板不存在:./App/Admin/View/Product/header.html.html
+
+[ 2014-08-02T14:59:49+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+ERR: 模板不存在:./App/Admin/View/Product/header.html.html
+
+[ 2014-08-02T14:59:50+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+ERR: 模板不存在:./App/Admin/View/Product/header.html.html
+
+[ 2014-08-02T15:00:04+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+ERR: 模板不存在:./App/Admin/View/Product/header.html.html
+
+[ 2014-08-02T15:02:19+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+ERR: 模板不存在:./App/Admin/View/Product/header.html.html
+
+[ 2014-08-02T15:02:23+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 模板不存在:./App/Admin/View/Product/header.html.html
+
+[ 2014-08-02T15:03:30+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010645s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007501s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015413s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003975s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002431s ]
+
+[ 2014-08-02T15:36:31+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000620s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+NOTIC: [8] Undefined variable: view D:\wamp\www\0730\tpshop\App\Admin\Controller\ProductController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008338s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006425s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007153s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013198s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003458s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.008623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2014-08-02T15:42:02+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Undefined variable: view D:\wamp\www\0730\tpshop\App\Admin\Controller\PublicController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009327s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007677s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008831s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015576s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005256s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2014-08-02T15:52:13+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8] Undefined variable: view D:\wamp\www\0730\tpshop\App\Admin\Controller\PublicController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007061s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008331s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009146s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014378s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003434s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2014-08-02T15:52:34+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+NOTIC: [8] Undefined variable: view D:\wamp\www\0730\tpshop\App\Admin\Controller\PublicController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006436s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004897s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011061s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004246s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2014-08-02T16:02:48+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Undefined variable: view D:\wamp\www\0730\tpshop\App\Admin\Controller\PublicController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006589s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013957s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014762s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020604s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007553s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.023291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2014-08-02T16:04:34+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+NOTIC: [8] Undefined variable: view D:\wamp\www\0730\tpshop\App\Admin\Controller\PublicController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006655s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006093s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011673s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003391s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2014-08-02T16:21:35+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001866s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+NOTIC: [8] Undefined variable: view D:\wamp\www\0730\tpshop\App\Admin\Controller\PublicController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006529s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005366s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006151s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011148s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003819s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2014-08-02T16:21:36+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+
+[ 2014-08-02T16:24:58+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000715s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Undefined variable: view D:\wamp\www\0730\tpshop\App\Admin\Controller\PublicController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005988s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004778s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011078s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004119s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2014-08-02T16:25:00+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Undefined variable: view D:\wamp\www\0730\tpshop\App\Admin\Controller\PublicController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007823s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008269s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015782s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005873s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2014-08-02T16:31:33+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Undefined variable: view D:\wamp\www\0730\tpshop\App\Admin\Controller\PublicController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006613s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005209s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011098s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003561s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001638s ]
+
+[ 2014-08-02T16:31:37+08:00 ] 127.0.0.1 /0730/tpshop/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\wamp\www\0730\tpshop\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2014-08-02T16:31:56+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] Undefined variable: view D:\wamp\www\0730\tpshop\App\Admin\Controller\PublicController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005894s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004653s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010249s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005090s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2014-08-02T16:31:58+08:00 ] 127.0.0.1 /0730/tpshop/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\wamp\www\0730\tpshop\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2014-08-02T16:34:54+08:00 ] 127.0.0.1 /0730/tpshop/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\wamp\www\0730\tpshop\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2014-08-02T16:39:40+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2014-08-02T16:39:46+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003683s ]
+SQL: SELECT * FROM `tp_admin` WHERE ( `username` = 'sky' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000479s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2014-08-02T16:39:47+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+NOTIC: [8] Undefined variable: view D:\wamp\www\0730\tpshop\App\Admin\Controller\PublicController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008979s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005257s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013647s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003251s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2014-08-02T16:41:43+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001292s ]
+NOTIC: [8] Undefined variable: view D:\wamp\www\0730\tpshop\App\Admin\Controller\PublicController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007449s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005266s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012005s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003291s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.008257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001274s ]
+
+[ 2014-08-02T16:41:45+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+NOTIC: [8] Undefined variable: view D:\wamp\www\0730\tpshop\App\Admin\Controller\PublicController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005540s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004931s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009969s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003679s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2014-08-02T16:41:47+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined variable: view D:\wamp\www\0730\tpshop\App\Admin\Controller\PublicController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006420s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006075s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006678s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011798s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003306s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.008090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2014-08-02T16:43:47+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] Undefined variable: view D:\wamp\www\0730\tpshop\App\Admin\Controller\PublicController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006805s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005464s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006218s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011114s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003798s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2014-08-02T16:44:39+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+NOTIC: [8] Undefined variable: view D:\wamp\www\0730\tpshop\App\Admin\Controller\PublicController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005344s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003732s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004562s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009731s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003979s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001466s ]
+
+[ 2014-08-02T16:57:10+08:00 ] 127.0.0.1 /0730/tpshop/index.php/Admin/Product/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8] Undefined variable: view D:\wamp\www\0730\tpshop\App\Admin\Controller\PublicController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006579s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005532s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006373s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012162s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003424s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+

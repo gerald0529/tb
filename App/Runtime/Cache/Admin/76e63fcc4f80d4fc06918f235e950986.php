@@ -1,0 +1,82 @@
+<?php if (!defined('THINK_PATH')) exit();?>
+    <div class="content-box">
+      <!-- Start Content Box -->
+      <div class="content-box-header">
+        <!-- <h3>Content box</h3> -->
+        <h3><a href="<?php echo U('index');?>">返回上一页</a></h3> 
+        <ul class="content-box-tabs">
+          <li><a href="#tab1" >Table</a></li>
+          <!-- href must be unique and match the id of target div -->
+          <li><a href="#tab2" class="default-tab">Forms</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <!-- End .content-box-header -->
+      <div class="content-box-content">
+        
+          <!-- This is the target div. id must match the href of this div's tab -->
+         
+        <!-- End #tab1 -->
+        <div class="tab-content default-tab" id="tab2">
+          
+          <form action="<?php echo ($act); ?>" method="post" enctype="multipart/form-data">
+            <fieldset>
+            <!-- Set class to "column-left" or "column-right" on fieldsets to divide the form into columns -->
+            <input class="text-input small-input" type="hidden" id="small-input" name="uid" value="<?php echo ($arr["uid"]); ?>"/>
+            <!-- <input class="text-input small-input" type="hidden" id="small-input" name="resource" value="<?php echo ($_SESSION["user"]); ?>"/> -->
+            <p>
+             <label>商品信息（有<font color=red>*</font>为必填或必选）</label>
+             </p>
+             <p>
+              <font color=red>*</font>会员等级：
+              <select name="type_id" class="small-input1"    style="width:120px;">
+               <option value="0">默认</option> 
+                <?php foreach ($abb as $key => $v) :?>
+               <option value="<?php echo $v['id']; ?>" <?php if($v['id']==$arr['type_id']) echo "selected";?>>
+               <?php echo $v['level_name']; ?></option>
+               <?php endforeach;?>
+               </select> 
+            </p>
+            
+            <p>  
+              <font color=red>*</font>帐号：
+              <input class="text-input small-input" type="text" id="small-input" name="username" value="<?php echo ($arr["username"]); ?>"/>
+            </p>
+            <p>  
+              <font color=red>*</font>昵称：
+              <input class="text-input small-input" type="text" id="small-input" name="nickname" value="<?php echo ($arr["nickname"]); ?>"/>
+            </p>
+            <p>  
+              <font color=red>*</font>邮箱：
+              <input class="text-input small-input" type="text" id="small-input" name="email" value="<?php echo ($arr["email"]); ?>"/>
+            </p>
+            <p>  
+              <font color=red>*</font>密码：
+              <input class="text-input small-input" type="password" id="small-input" name="password" value=""/>
+            </p>
+            <p>  
+              <font color=red>*</font>确认密码(未加JS)：
+              <input class="text-input small-input" type="password" id="small-input" name="password2" value=""/>
+            </p>
+             <p>  
+              <font color=red>*</font>状态：
+              <input  type="radio" id="small-input" name="is_lock" value="0" <?php if($arr['is_lock'] == 0) echo 'checked="checked"';?>/>
+              <span>正常</span>
+              <input  type="radio" id="small-input" name="is_lock" value="1" <?php if($arr['is_lock'] == 1 ) echo 'checked="checked"';?>/>
+              <span>锁定</span>
+            </p>
+            
+            
+            <p>
+              <input class="button" type="submit" value="Submit" />
+            </p>
+            </fieldset>
+            <div class="clear"></div>
+            <!-- End .clear -->
+          </form>
+        </div>
+        <!-- End #tab2 -->
+      </div>
+      <!-- End .content-box-content -->
+    </div>
+    <!-- End .content-box -->

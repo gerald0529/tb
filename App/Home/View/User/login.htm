@@ -1,0 +1,59 @@
+<layout name="Layout/layout" />
+
+            <div class="main">
+                <div class="login_box">
+                    <div class="tit">
+                        <h3>會員專區</h3>
+                    </div>
+                    <div class="login_line">
+                    <form action="{:U('User/login')}" method="post">
+                        <div class="inlineb a">
+                            <ul>
+                                <li><input type="text" name="username" id="" placeholder="會員賬號" class="inp"><span><img src="__MET__images/login_ico_01.png" alt=""></span></li>
+                                <li><input type="password" name="password" id="" placeholder="會員密碼" class="inp"><span><img src="__MET__images/login_ico_02.png" alt=""></span></li>
+                                <li class="code rel">
+                                    <a href="javascript:;"   onclick="this.src+='#'"">
+                                    <img src="__CONTROLLER__/verify" alt="">
+                                    </a>
+                                    <input type="text" name="verify" id="" placeholder="請填寫右方驗證碼" class="inp">
+                                </li>
+                                <li class="ck c">
+                                    <label for="a"><input type="checkbox" name="" id="a">自动登录</label>
+                                    <a href="" class="r">忘记密码？</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="inlineb b">
+                            <input type="submit" value="登 錄" class="mit">
+                        </div>
+                        <div class="inlineb d">
+                            <a href="{:U('User/reg')}">
+                                <span>加入會員</span>歡迎您加入天霸精緻建材網站會員
+                            </a>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style type="text/css">
+            .main {background: none;margin: 0}
+    </style>
+    <script type="text/javascript">
+            $(function () {
+                var winH = $(window).height();
+                var aboxH = $(".bottom_x").height();
+                var bboxH = $(".footer").outerHeight();
+                var cboxH = $(".header").outerHeight();
+                var dboxH = $(".nav").outerHeight();
+                var eboxH = $(".t2").outerHeight();
+                //$(".bg").css("height",winH - aboxH - bboxH + 'px');
+                //$(".main").css("height",winH - aboxH - bboxH - cboxH - dboxH - 15 + 'px');
+                $(".bg").css("height",'100%');
+                $(".main").css("height",'500px');
+            })
+    </script>
+    
